@@ -8,23 +8,120 @@
   padding: 10px 30px;
   .table_left {
     width: 70%;
-    height: 450px;
+    height: 520px;
     border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     background: linear-gradient(
       126.97deg,
       rgba(6, 11, 40, 0.74) 28.26%,
       rgba(10, 14, 35, 0.71) 91.2%
     );
+    .table_right_parent {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 20px;
+      h3 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25.2px;
+        color: #ffffff;
+      }
+      span {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19.6px;
+        color: #a0aec0;
+
+        .checkbox {
+          color: #01b574;
+          font-size: 16px;
+        }
+      }
+    }
   }
 
   .table_right {
     width: 30%;
-    height: 450px;
+    height: 520px;
     border-radius: 20px;
+    padding: 30px 20px;
     background: linear-gradient(
       126.97deg,
       rgba(6, 11, 40, 0.74) 28.26%,
       rgba(10, 14, 35, 0.71) 91.2%
     );
+    .table_right_parent {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 40px;
+      h3 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25.2px;
+        color: #ffffff;
+      }
+      span {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19.6px;
+        color: #a0aec0;
+
+        .checkbox {
+          color: #01b574;
+          font-size: 16px;
+        }
+      }
+    }
+
+    .table_right_child {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 25px;
+      .bell,
+      .bell1,
+      .bell2,
+      .bell3,
+      .bell4 {
+        font-size: 16px;
+        color: dodgerblue;
+      }
+      .bell2 {
+        color: red;
+      }
+      .bell3 {
+        color: orange;
+      }
+      .bell4 {
+        color: purple;
+      }
+      .table_child_title_wrapper {
+        display: flex;
+        flex-direction: column;
+        p {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 21px;
+          color: #ffffff;
+        }
+        span {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 18px;
+          color: #a0aec0;
+        }
+      }
+    }
   }
 }
