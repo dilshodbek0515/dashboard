@@ -1,0 +1,72 @@
+.hero {
+  width: 100%;
+  height: auto;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  .hero_top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    .hero_top_card1 {
+      width: 45%;
+      height: 300px;
+      border-radius: 20px;
+      background: linear-gradient(
+        127.09deg,
+        rgba(6, 11, 40, 0.94) 19.41%,
+        rgba(10, 14, 35, 0.49) 76.65%
+      );
+    }
+    .hero_top_card2 {
+      width: 25%;
+      height: 300px;
+      border-radius: 20px;
+      background: linear-gradient(
+        127.09deg,
+        rgba(6, 11, 40, 0.94) 19.41%,
+        rgba(10, 14, 35, 0.49) 76.65%
+      );
+    }
+    .hero_top_card3 {
+      width: 30%;
+      height: 300px;
+      border-radius: 20px;
+      background: linear-gradient(
+        127.09deg,
+        rgba(6, 11, 40, 0.94) 19.41%,
+        rgba(10, 14, 35, 0.49) 76.65%
+      );
+    }
+  }
+  .hero_bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    .hero_bottom1 {
+      width: 60%;
+      height: 445px;
+      border-radius: 20px;
+      background: linear-gradient(
+        126.97deg,
+        rgba(6, 11, 40, 0.74) 28.26%,
+        rgba(10, 14, 35, 0.71) 91.2%
+      );
+    }
+    .hero_bottom2 {
+      width: 40%;
+      height: 445px;
+      border-radius: 20px;
+      background: linear-gradient(
+        126.97deg,
+        rgba(6, 11, 40, 0.74) 28.26%,
+        rgba(10, 14, 35, 0.71) 91.2%
+      );
+    }
+  }
+}

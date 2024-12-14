@@ -1,0 +1,80 @@
+.header {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  .header_left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .navbar_top {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      span,
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 12px;
+        color: #ffffff;
+        opacity: 0.5;
+      }
+      p {
+        color: #ffffff;
+        opacity: 1;
+      }
+    }
+    h3 {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.6px;
+      color: #ffffff;
+    }
+  }
+  .header_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    .navbar_forma {
+      width: 199px;
+      height: 39.5px;
+      border-radius: 15px;
+      padding: 5px 10px;
+      display: flex;
+      align-items: center;
+      background-color: #0f1535;
+      border: 1px solid #e2e8f04d;
+      .navbar_search_icon {
+        font-size: 16px;
+        cursor: pointer;
+        color: gray;
+      }
+      input {
+        flex: 1;
+        height: 100%;
+        background-color: transparent;
+        border: transparent;
+        outline: none;
+        font-size: 13px;
+        color: gray;
+        text-indent: 5px;
+      }
+    }
+    .user_wrapper {
+      color: gray;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+    }
+    .settings {
+      font-size: 16px;
+      color: gray;
+      cursor: pointer;
+    }
+  }
+}

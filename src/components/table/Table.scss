@@ -1,0 +1,30 @@
+.table {
+  width: 100%;
+  height: auto;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 30px;
+  .table_left {
+    width: 70%;
+    height: 450px;
+    border-radius: 20px;
+    background: linear-gradient(
+      126.97deg,
+      rgba(6, 11, 40, 0.74) 28.26%,
+      rgba(10, 14, 35, 0.71) 91.2%
+    );
+  }
+
+  .table_right {
+    width: 30%;
+    height: 450px;
+    border-radius: 20px;
+    background: linear-gradient(
+      126.97deg,
+      rgba(6, 11, 40, 0.74) 28.26%,
+      rgba(10, 14, 35, 0.71) 91.2%
+    );
+  }
+}

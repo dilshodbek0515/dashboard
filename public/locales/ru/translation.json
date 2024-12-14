@@ -1,0 +1,10 @@
+{
+    "l": "en",
+    "lang": "Language",
+    "header":{
+        "home": "Home",
+        "about": "About us",
+        "contact": "Contact us"
+    },
+    "search":"search"
+}
