@@ -33,6 +33,10 @@ const Login = () => {
         onSubmit={handleLogin}
         className='flex items-center justify-center w-[500px] h-[400px] flex-col shadow-2xl rounded-xl bg-slate-300 gap-8 p-5'
       >
+        <div>
+          <p className='text-xl text-black'>Username: emilys</p>
+          <p className='text-xl text-black'>Password: emilyspass</p>
+        </div>
         <input
           type='text'
           name='username'
