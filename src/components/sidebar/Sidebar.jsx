@@ -9,6 +9,7 @@ import {
   IoDocumentSharp,
   IoRocket
 } from 'react-icons/io5'
+import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
@@ -16,49 +17,49 @@ const Sidebar = () => {
       <div className='sidebar_top'>
         <h2 className='logo'>VISION UI FREE</h2>
         <hr />
-        <div className='sidebar_item'>
+        <NavLink className='sidebar_item'>
           <div className='sidebar_icon_div'>
             <IoHome className='sidebar_icon' />
           </div>
           <span>Dashboard</span>
-        </div>
-        <div className='sidebar_item'>
+        </NavLink>
+        <NavLink className='sidebar_item'>
           <div className='sidebar_icon_div'>
             <IoIosStats className='sidebar_icon' />
           </div>
           <span>Tables</span>
-        </div>
-        <div className='sidebar_item'>
+        </NavLink>
+        <NavLink className='sidebar_item'>
           <div className='sidebar_icon_div'>
             <IoCard className='sidebar_icon' />
           </div>
           <span>Billing</span>
-        </div>
-        <div className='sidebar_item'>
+        </NavLink>
+        <NavLink className='sidebar_item'>
           <div className='sidebar_icon_div'>
             <IoBuild className='sidebar_icon' />
           </div>
           <span>RTL</span>
-        </div>
+        </NavLink>
         <h3>ACCOUNT PAGES</h3>
-        <div className='sidebar_item'>
+        <NavLink className='sidebar_item'>
           <div className='sidebar_icon_div'>
             <IoPerson className='sidebar_icon' />
           </div>
           <span>Profile</span>
-        </div>
-        <div className='sidebar_item'>
+        </NavLink>
+        <NavLink className='sidebar_item'>
           <div className='sidebar_icon_div'>
             <IoDocumentSharp className='sidebar_icon' />
           </div>
           <span>Sign In</span>
-        </div>
-        <div className='sidebar_item'>
+        </NavLink>
+        <NavLink className='sidebar_item'>
           <div className='sidebar_icon_div'>
             <IoRocket className='sidebar_icon' />
           </div>
           <span>Sign Up</span>
-        </div>
+        </NavLink>
       </div>
       <div className='sidebar_bottom'>
         <div className='question_wrapper'>

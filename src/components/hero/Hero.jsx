@@ -2,8 +2,8 @@ import './Hero.scss'
 import { FaArrowRight } from 'react-icons/fa6'
 // 3
 import { LineChart, lineElementClasses } from '@mui/x-charts/LineChart'
-const uData = [300, 150, 200, 300, 100, 300, 350, 150, 300]
-const xLabels = ['Yan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Avg', 'Sen']
+const uData = [200, 150, 220, 150, 130, 250, 300]
+const xLabels = ['Yan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul']
 // 4
 import { BarChart } from '@mui/x-charts/BarChart'
 
