@@ -49,7 +49,7 @@ const Login = () => {
         />
         <button
           disabled={loading}
-          className='border-transparent w-full h-14 rounded-xl px-5 text-lg text-white duration-300 bg-blue-500 hover:bg-transparent hover:text-blue-500 hover:border border-blue-500 hover:duration-300'
+          className='w-full h-14 rounded-xl px-5 text-lg border text-white duration-300 bg-blue-500 hover:bg-transparent hover:text-blue-500 hover: border-blue-500 hover:duration-300'
         >
           {loading ? 'Loading...' : 'Log in'}
         </button>

@@ -11,7 +11,7 @@ import {
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 const Table = () => {
-  const [product, setProduct] = useState(null)
+  const [product, setProduct] = useState()
   useEffect(() => {
     axios
       .get('https://dummyjson.com/products')
@@ -43,7 +43,7 @@ const Table = () => {
                   src={pro.images}
                   alt=''
                 />
-                <h3 className='text-lg text-gray-200'>{pro.title}</h3>
+                <h3 className='text-lg text-gray-200 w-72'>{pro.title}</h3>
               </div>
               <img
                 className='w-10 h-10 bg-gray-500 rounded-sm'
@@ -53,7 +53,7 @@ const Table = () => {
               <p className='text-white text-lg font-semibold'>$ {pro.price}</p>
               <p className='text-white text-lg font-semibold'>{pro.stock} %</p>
             </div>
-            <hr className='bg-gray-900 mt-3'/>
+            <hr className='bg-gray-900 mt-3' />
           </div>
         ))}
       </div>
